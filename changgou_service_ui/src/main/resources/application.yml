@@ -1,0 +1,11 @@
+server:
+  port: 8099
+spring:
+  application:
+    name: login-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka
+  instance:
+    prefer-ip-address: true
